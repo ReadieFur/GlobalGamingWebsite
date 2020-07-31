@@ -1,0 +1,20 @@
+/*#region Footer*/
+footer
+{
+    font-size: 14px;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    width: fit-content;
+    bottom: 0;
+    height: 60px;
+}
+
+footer > *
+{
+    text-decoration: none;
+    top: 40%;
+    position: relative;
+}
+/*#endregion*/
