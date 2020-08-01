@@ -28,15 +28,15 @@ window.onload = function slideShow()
         var slides = slidesInfo.querySelectorAll("div");
         slides.forEach((slide, slideIndex) =>
         {
-            var slideImage = slide.getElementsByTagName("img")[0].getAttribute("src");
+            var containImage = slide.getElementsByTagName("img")[0].getAttribute("src");
             var slideTitle = slide.getElementsByTagName("h3")[0].innerHTML;
             const regexReplace = /"/gi;
             var slideContent = slide.getElementsByTagName("p")[0].innerHTML.replace(regexReplace, "'");
             var button = document.createElement("button");
             button.innerHTML = "<p>5</p>"; //<img src='/assets/images/banner.png'> WORK ON THIS
             button.className = "slideButton";
-            button.style = `width: ${(100/slides.length + 1) - 1}%; background-image: url(${slideImage});`;
-            button.setAttribute("onclick", `changeSlide(${index}, ${slideIndex}, "${slideImage}", "${slideTitle}", "${slideContent}")`);
+            button.style = `width: ${(100/slides.length + 1) - 1}%; background-image: url(${containImage});`;
+            button.setAttribute("onclick", `changeSlide(${index}, ${slideIndex}, "${containImage}", "${slideTitle}", "${slideContent}")`);
             button.setAttribute("index", `${slideIndex}`);
             slideButtons.appendChild(button);
         });
@@ -47,7 +47,7 @@ window.onload = function slideShow()
     });
 }
 
-function changeSlide(slideShowIndex, slideIndex, slideImage, slideTitle, slideContent)
+function changeSlide(slideShowIndex, slideIndex, containImage, slideTitle, slideContent)
 {
     var slideShow = document.getElementsByClassName("slideshowContainer")[slideShowIndex];
     var slideInfoContainer = slideShow.getElementsByClassName("slideInfoContainer")[0].querySelectorAll("div");
@@ -56,7 +56,7 @@ function changeSlide(slideShowIndex, slideIndex, slideImage, slideTitle, slideCo
 
     //Set slide contents
     slideShow.getElementsByTagName("img")[0].src = slideShow.getElementsByTagName("img")[1].src;
-    slideShow.getElementsByTagName("img")[1].src = slideImage;
+    slideShow.getElementsByTagName("img")[1].src = containImage;
     slideShow.replaceChild(slideShow.getElementsByTagName("img")[1].cloneNode(), slideShow.getElementsByTagName("img")[1]);
     slideText[0].innerHTML = slideTitle;
     slideText[1].innerHTML = slideContent;
