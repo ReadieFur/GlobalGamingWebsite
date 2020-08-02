@@ -6,7 +6,6 @@ body
     color: white;
     margin: 0;
     overflow-x: hidden;
-    padding-bottom: 60px;
 }
 
 /*Work on using this style for elements but not the main page*/
@@ -26,8 +25,8 @@ span { width: 100vw; }
 section
 {
     /*margin-top: 50px;*/
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 .panel1

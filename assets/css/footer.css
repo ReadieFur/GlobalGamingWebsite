@@ -1,11 +1,15 @@
 /*#region Footer*/
+body::after
+{
+    content: "";
+    height: 60px;
+}
+
 footer
 {
     font-size: 14px;
-    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
-    position: absolute;
     width: fit-content;
     bottom: 0;
     height: 60px;

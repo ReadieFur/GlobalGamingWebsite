@@ -13,7 +13,7 @@ function injectHeaderFooter()
         success: function (data) { head.innerHTML = head.innerHTML + data; }
     });
     $("#header").load("/assets/html/header.html");
-    //$("#footer").load("/assets/html/footer.html");
+    $("#footer").load("/assets/html/footer.html");
 }
 
 //#region Slideshow
