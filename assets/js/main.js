@@ -32,8 +32,11 @@ window.onload = function slideShow()
             var slideTitle = slide.getElementsByTagName("h3")[0].innerHTML;
             const regexReplace = /"/gi;
             var slideContent = slide.getElementsByTagName("p")[0].innerHTML.replace(regexReplace, "'");
+            
+            //var slideButton = slide.getElementsByTagName("button").length == 0 ? null : slide.getElementsByTagName("button")[0].getAttribute("onclick"); //Work in progress
+
             var button = document.createElement("button");
-            button.innerHTML = "<p>5</p>"; //<img src='/assets/images/banner.png'> WORK ON THIS
+            button.innerHTML = "<p>5</p>";
             button.className = "slideButton";
             button.style = `width: ${(100/slides.length + 1) - 1}%; background-image: url(${containImage});`;
             button.setAttribute("onclick", `changeSlide(${index}, ${slideIndex}, "${containImage}", "${slideTitle}", "${slideContent}")`);
@@ -61,7 +64,6 @@ function changeSlide(slideShowIndex, slideIndex, containImage, slideTitle, slide
     slideText[0].innerHTML = slideTitle;
     slideText[1].innerHTML = slideContent;
 
-    //FIX ACTIVE BUTTON OFFSET
     //Set all buttons to default aside from the selected slideIndex
     slideButtons.forEach(element =>
     {

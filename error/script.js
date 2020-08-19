@@ -1,0 +1,1 @@
+//Implement ?code=* for custom error pages

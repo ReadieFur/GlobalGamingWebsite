@@ -1,24 +1,24 @@
-/*#region Footer*/
 body::after
 {
+    display: block;
     content: "";
     height: 60px;
 }
 
 footer
 {
-    font-size: 14px;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: fit-content;
     bottom: 0;
+    position: absolute;
+    left: 5%;
+    right: 5%;
     height: 60px;
 }
 
-footer > *
+footer > div:first-of-type
 {
-    text-decoration: none;
-    top: 40%;
     position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
 }
-/*#endregion*/
+
+footer > div:first-of-type > * { font-size: small; }
