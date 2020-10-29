@@ -1,0 +1,42 @@
+.socialsList
+{
+    height: fit-content;
+    text-align: justify;
+}
+
+.socialsList:after
+{
+    width: 100%;
+    content: "";
+    display: inline-block;
+}
+
+.socialsList > button
+{
+    position: relative;
+    margin-bottom: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
+
+.socialsList > button > div
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    height: max-content;
+}
+
+.socialsList > button > div > h3 { margin-bottom: 0; }
+
+.socialsList > button > div > img
+{
+    margin-top: 5px;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+}

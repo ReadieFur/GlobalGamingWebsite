@@ -1,4 +1,5 @@
 let twitchChannels = [
+    "kofteamorg",
     "snipernikola",
     "iwanthegod",
     "kof_readie",
