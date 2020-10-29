@@ -161,6 +161,8 @@ h4, .h4 { font-size: 1.32rem; }
 h5, .h5 { font-size: 1.02rem; }
 h6, .h6 { font-size: .88rem; }
 
+.center.text { text-align: center; }
+
 /*Colours*/
 .red { color: #dd163b !important; }
 
