@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", () =>
         let offlineChannels = document.querySelector("#offlineChannels").querySelector(".channels");
 
         response = JSON.parse(response);
-        if (response.results.data.length >= 1)
+        if (response.results != null && response.results.data.length >= 1)
         {
             document.querySelector("#onlineChannels").style.display = "block";
             response.results.data.forEach(result => { liveUsers.push(result.user_name); });
