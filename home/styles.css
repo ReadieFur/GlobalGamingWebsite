@@ -1,0 +1,33 @@
+.firstLinks
+{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+
+.firstLinks td
+{
+    width: 33.3%;
+}
+
+.firstLinks img
+{
+    width: 75px;
+}
+
+.firstLinks button
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    height: 100%;
+}
+
+.firstLinks button > h6 { margin-bottom: 0; }
+
+#twitchStreaming.live
+{
+    background: linear-gradient(135deg, rgba(111,0,185,1) 30%, rgba(25,46,212,1) 100%);;
+    background-size: 400% 400%;
+    animation: gradient135 5s ease infinite;
+}

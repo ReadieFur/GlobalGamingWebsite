@@ -12,6 +12,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/assets/js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="/twitch/twitch_api.js"></script>
+    <script src="script.js"></script>
 </head>
 <header id="header"></header>
 <body>
@@ -53,6 +55,33 @@
             <div></div>
         </section>
     </div>
+    <section>
+        <table class="firstLinks">
+            <tr>
+                <td>
+                    <button onclick="window.location = '/news/';">
+                        <img src="/assets/images/NewsWhite.png" alt="TwitchWhite">
+                        <h5>eSports News</h5>
+                        <h6>Our latest news</h6>
+                    </button>
+                </td>
+                <td>
+                    <button onclick="window.location = '/twitch/';" id="twitchStreaming">
+                        <img src="/assets/images/TwitchWhite.png" alt="TwitchWhite">
+                        <h5>Twitch Streaming</h5>
+                        <h6>View our channels</h6>
+                    </button>
+                </td>
+                <td>
+                    <button onclick="window.location = '/tournaments/';">
+                        <img src="/assets/images/TrophyWhite.png" alt="TwitchWhite">
+                        <h5>Game Tournaments</h5>
+                        <h6>Our upcoming tournaments</h6>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </section>
 </body>
 <footer id="footer"></footer>
 </html>
