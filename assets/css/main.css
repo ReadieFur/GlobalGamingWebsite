@@ -11,7 +11,7 @@ body
 }
 
 /*Work on using this style for elements but not the main page*/
-::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb
 {
@@ -250,7 +250,7 @@ button:hover { background-color: #3d4555; cursor: pointer; }
     overflow-x: hidden;
 }
 
-.slideButtons
+.slideButtons /*Fix the inactive CSS*/
 {
     margin-top: 1%;
     border-radius: 0px 0px 4px 4px;
@@ -316,11 +316,19 @@ button:hover { background-color: #3d4555; cursor: pointer; }
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+@keyframes gradient135
+{
+    0% { background-position:0% 0% }
+    50% { background-position:100% 100% }
+    100% { background-position:0% 0% }
+}
 /*#endregion*/
 
 /*#region Misc*/
 .center
 {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

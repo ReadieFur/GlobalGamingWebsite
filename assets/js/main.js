@@ -67,11 +67,13 @@ function changeSlide(slideShowIndex, slideIndex, containImage, slideTitle, slide
     //Set all buttons to default aside from the selected slideIndex
     slideButtons.forEach(element =>
     {
+        element.style.border = "none";
         element.getElementsByTagName("p")[0].style.display = "none";
         element.style.paddingTop = "0px";
     });
     slideButtons[slideIndex].getElementsByTagName("p")[0].style.display = "block";
     slideButtons[slideIndex].style.paddingTop = "20px";
+    //slideButtons[slideIndex].style.border = "2px solid white"; //Fix CSS before doing this
 }
 
 async function slideShowTimer(slideShowIndex)
