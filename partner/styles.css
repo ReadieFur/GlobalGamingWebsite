@@ -1,10 +1,8 @@
-#mainText
+iframe
 {
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(8px);
-    text-align: center;
-    width: max-content;
-    height: max-content;
-    border-radius: 4px;
-    padding: 10px 50px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    padding-bottom: 50px;
+    transform: translate(-50%);
 }
