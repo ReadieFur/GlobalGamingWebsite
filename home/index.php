@@ -54,25 +54,25 @@
         <table class="firstLinks">
             <tr>
                 <td>
-                    <button onclick="window.location = '/socials/';">
+                    <a class="asButton" href="https://global-gaming.co/socials">
                         <img src="https://cdn.global-gaming.co/images/SocialsWhite.png" alt="SocialsWhite">
                         <h5>Socials</h5>
                         <h6>Visit our socials</h6>
-                    </button>
+                    </a>
                 </td>
                 <td>
-                    <button onclick="window.location = '/twitch/';" id="twitchStreaming">
+                    <a class="asButton" href="https://global-gaming.co/twitch">
                         <img src="https://cdn.global-gaming.co/images/TwitchWhite.png" alt="TwitchWhite">
                         <h5>Twitch Streaming</h5>
                         <h6>View our channels</h6>
-                    </button>
+                    </a>
                 </td>
                 <td>
-                    <button onclick="window.location = '/tournaments/';">
+                    <a class="asButton" href="https://global-gaming.co/tournaments">
                         <img src="https://cdn.global-gaming.co/images/TrophyWhite.png" alt="TrophyWhite">
                         <h5>Game Tournaments</h5>
                         <h6>Our upcoming tournaments</h6>
-                    </button>
+                    </a>
                 </td>
             </tr>
         </table>

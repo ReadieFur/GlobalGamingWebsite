@@ -144,6 +144,8 @@ section:last-of-type { margin-bottom: 100px; }*/
 
 /*#region Links*/
 a { color: inherit; text-decoration: none; }
+
+a.asButton { display: block !important; }
 /*#endregion*/
 
 /*#region Text*/
@@ -195,7 +197,7 @@ h6, .h6 { font-size: .88rem; }
 /*#endregion*/
 
 /*#region Buttons*/
-button
+button, .asButton
 {
     outline: none;
     transition: ease .4s;
@@ -211,17 +213,19 @@ button
     background-color: #2f3541;
 }
 
-button:hover { background-color: #3d4555; cursor: pointer; }
+button:hover, .asButton:hover
+{ background-color: #3d4555; cursor: pointer; }
 
-.redButtonactive { background-color: #dd163b; }
+.redButtonactive, .redButtonactive.asButton
+{ background-color: #dd163b; }
 
-.hollowButton
+.hollowButton, .hollowButton.asButton
 {
     border: 2.5px solid #dd163b;
     background-color: transparent;
 }
-.hollowButton:hover { background-color: #3d4555; }
-
+.hollowButton:hover, .hollowButton.asButton:hover
+{ background-color: #3d4555; }
 /*#endregion*/
 
 /*#region Slideshow*/
