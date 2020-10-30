@@ -15,13 +15,11 @@
                 <div class="blurImage">
                     <img class="containImage" src="/assets/images/banner.png">
                 </div>
-                <!--#region Place MAIN content here-->
                 <div class="p1c">
                     <span class="h3">Global Gaming</span>
                     <span class="h3">—</span>
                     <span class="h3 red">PAGE TITLE</span>
                 </div>                
-                <!--#endregion-->
             </div>
             <div></div>
         </section>

@@ -40,3 +40,7 @@
     max-height: 100px;
     min-width: 100px;
 }
+
+table { width: 100%; }
+table td { padding: 15px 0; }
+table h4 { margin: 10px 5px; }

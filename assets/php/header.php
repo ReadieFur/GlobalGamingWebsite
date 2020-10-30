@@ -30,7 +30,6 @@
                     <a href="/twitch/">Twitch</a>
                     <a href="/tournaments/">Tournaments</a>
                     <a href="/partner/">Partner</a>
-                    <a href="http://radioiwan.global-gaming.co">Radio IwAn</a>
                 </div>                
             </div>
         </div>
