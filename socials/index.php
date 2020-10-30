@@ -1,27 +1,22 @@
+<?php
+    $DOCUMENT_ROOT = $_SERVER["DOCUMENT_ROOT"];
+    require_once "{$DOCUMENT_ROOT}/assets/php/main.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
-<head id="head">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="GlobalGaming"/>
-    <meta property="og:description" content="Socials"/>
-    <meta property="og:url" content="https://global-gaming.co/socials"/>
-    <meta property="og:image" content="https://cdn.global-gaming.co/images/Panda.png"/>
-    <title>Global Gaming | Socials</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/assets/js/main.js"></script>
+<head>
+    <?php echo execAndRead("{$DOCUMENT_ROOT}/assets/php/head.php"); ?>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<header id="header"></header>
+<header id="header"><?php echo execAndRead("{$DOCUMENT_ROOT}/assets/php/header.php"); ?></header>
 <body>
     <div class="panel1">
-        <img src="/assets/images/banner.png">
+        <img src="https://cdn.global-gaming.co/images/banner.png">
         <section>
             <div></div>
             <div class="panel1Content bottomStrip">                
                 <div class="blurImage">
-                    <img class="containImage" src="/assets/images/banner.png">
+                    <img class="containImage" src="https://cdn.global-gaming.co/images/banner.png">
                 </div>
                 <!--#region Place MAIN content here-->
                 <div class="p1c">
@@ -37,41 +32,41 @@
     <section class="socialsList">
         <button onclick="window.location = 'https://discord.gg/fk3G2c6';">
             <div>
-                <img src="/assets/images/DiscordWhite.png" alt="DiscordWhite">
+                <img src="https://cdn.global-gaming.co/images/DiscordWhite.png" alt="DiscordWhite">
                 <h3>Global Gaming</h3>
             </div>
         </button>
         <button onclick="window.location = 'https://facebook.com/GGHostMK';">
             <div>
-                <img src="/assets/images/FacebookWhite.png" alt="FacebookWhite">
+                <img src="https://cdn.global-gaming.co/images/FacebookWhite.png" alt="FacebookWhite">
                 <h3>GG Host MK</h3>
             </div>
         </button>
         <button onclick="window.location = 'https://instagram.com/kofteamorg';">
             <div>
-                <img src="/assets/images/InstagramWhite.png" alt="InstagramWhite">
+                <img src="https://cdn.global-gaming.co/images/InstagramWhite.png" alt="InstagramWhite">
                 <h3>kOF Team ORG</h3>
             </div>
         </button>
         <button onclick="window.location = 'https://youtube.com/channel/UC0SCQHrGhvRKd3pTkikLrnA';">
             <div>
-                <img src="/assets/images/YoutubeWhite.png" alt="YoutubeWhite">
+                <img src="https://cdn.global-gaming.co/images/YoutubeWhite.png" alt="YoutubeWhite">
                 <h3>kOF Team</h3>
             </div>
         </button>
         <button onclick="window.location = 'https://twitter.com/kofteamorg';">
             <div>
-                <img src="/assets/images/TwitterWhite.png" alt="TwitterWhite">
+                <img src="https://cdn.global-gaming.co/images/TwitterWhite.png" alt="TwitterWhite">
                 <h3>kOF Team ORG</h3>
             </div>
         </button>
         <button onclick="window.location = 'https://twitch.tv/kofteamorg';">
             <div>
-                <img src="/assets/images/TwitchWhite.png" alt="TwitchWhite">
+                <img src="https://cdn.global-gaming.co/images/TwitchWhite.png" alt="TwitchWhite">
                 <h3>kOF Team ORG</h3>
             </div>
         </button>
     </section>
 </body>
-<footer id="footer"></footer>
+<footer id="footer"><?php echo execAndRead("{$DOCUMENT_ROOT}/assets/php/footer.php"); ?></footer>
 </html>

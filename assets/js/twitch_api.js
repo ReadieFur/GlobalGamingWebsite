@@ -13,7 +13,7 @@ function makeTwitchRequest(type, query, success)
     //Auto encodes URI component
     $.ajax(
     {
-        url: "/twitch/twitch_api.php",
+        url: "/assets/php/twitch_api.php",
         data:
         {
             q: JSON.stringify(

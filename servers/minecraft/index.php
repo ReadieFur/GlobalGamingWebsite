@@ -1,26 +1,19 @@
+<?php
+    $DOCUMENT_ROOT = $_SERVER["DOCUMENT_ROOT"];
+    require_once "{$DOCUMENT_ROOT}/assets/php/main.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
-<head id="head">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="GlobalGaming"/>
-    <meta property="og:description" content="Minecraft"/>
-    <meta property="og:url" content="https://global-gaming.co/servers/minecraft"/>
-    <meta property="og:image" content="https://cdn.global-gaming.co/images/Panda.png"/>
-    <title>Global Gaming | Minecraft</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/assets/js/main.js"></script>
-</head>
-<header id="header"></header>
+<head><?php echo execAndRead("{$DOCUMENT_ROOT}/assets/php/head.php"); ?></head>
+<header id="header"><?php echo execAndRead("{$DOCUMENT_ROOT}/assets/php/header.php"); ?></header>
 <body>
     <div class="panel1">
-        <img src="/assets/images/minecraftBackground.png">
+        <img src="https://cdn.global-gaming.co/images/minecraftBackground.png">
         <section>
             <div></div>
             <div class="panel1Content bottomStrip">                
                 <div class="blurImage">
-                    <img class="containImage" src="/assets/images/minecraftBackground.png">
+                    <img class="containImage" src="https://cdn.global-gaming.co/images/minecraftBackground.png">
                 </div>
                 <!--#region Place MAIN content here-->
                 <div class="p1c">
@@ -52,5 +45,5 @@
         <button onclick="window.location.href='https://discord.gg/fk3G2c6'">Minecraft Discord</button>
     </section>
 </body>
-<footer id="footer"></footer>
+<footer id="footer"><?php echo execAndRead("{$DOCUMENT_ROOT}/assets/php/footer.php"); ?></footer>
 </html>

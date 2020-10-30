@@ -1,5 +1,5 @@
 <?php
-include_once "/var/www/global-gaming.co/html/twitch/twitch_api_keys.php";
+include_once "twitch_api_keys.php";
 
 $_GETQuery = json_decode($_GET["q"], true);
 $response;

@@ -1,10 +1,9 @@
-<script src="/assets/js/header.js"></script>
 <link rel="stylesheet" type="text/css" href="/assets/css/header.css"/>
 
 <section>
     <div class="titleContainer">
         <a href="/">
-            <img class="imgSmall titleIcon" src="/assets/images/logo.svg">
+            <img class="imgSmall titleIcon" src="https://cdn.global-gaming.co/images/Panda.png">
             <h3 class="title">Global Gaming</h3>
         </a>
     </div>
