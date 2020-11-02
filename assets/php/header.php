@@ -8,7 +8,7 @@
         </a>
     </div>
     <div class="navigationContainer">
-        <a href="https://discord.gg/fk3G2c6">Discord</a>
+        <a href="/discord/">Discord</a>
         <div class="naviDropdown">
             <a>Servers +</a>
             <div class="dropdownContent">

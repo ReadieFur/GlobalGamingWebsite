@@ -23,13 +23,13 @@
                     <div>
                         <img src="https://cdn.global-gaming.co/images/rustBackground.jpg">
                         <h3>Rust</h3>
-                        <p>The only aim in Rust is to survive - Overcome struggles such as hunger, thirst and cold. Build a fire. Build a shelter. Kill animals. Protect yourself from other players.</p>
+                        <p>The only aim in Rust is to survive - Overcome struggles such as hunger, thirst and cold. Build a fire. Build a shelter. Kill animals. Protect yourself from other players.<a class="asButton" href="/servers/rust/">Server info</a></p>
                         <button onclick="location='../servers/rust'">More</button> <!--Work in progress-->
                     </div>
                     <div>
                         <img src="https://cdn.global-gaming.co/images/minecraftBackground.png">
                         <h3>Minecraft</h3>
-                        <p>In Minecraft, players explore a blocky, procedurally-generated 3D world, and may discover and extract raw materials, craft tools, build structures or earthworks, and depending on game mode, can fight computer-controlled "mobs", as well as either cooperate with or compete against other players in the same world.</p>
+                        <p>In Minecraft, players explore a blocky, procedurally-generated 3D world, and may discover and extract raw materials, craft tools, build structures or earthworks, and depending on game mode, can fight computer-controlled "mobs", as well as either cooperate with or compete against other players in the same world.<a class="asButton" href="/servers/minecraft/">Server info</a></p>
                     </div>
                 </div>
                 <!--#endregion-->
@@ -61,7 +61,7 @@
                     </a>
                 </td>
                 <td>
-                    <a class="asButton" href="https://global-gaming.co/twitch">
+                    <a id="twitchStreaming" class="asButton" href="https://global-gaming.co/twitch">
                         <img src="https://cdn.global-gaming.co/images/TwitchWhite.png" alt="TwitchWhite">
                         <h5>Twitch Streaming</h5>
                         <h6>View our channels</h6>

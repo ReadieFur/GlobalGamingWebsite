@@ -28,7 +28,7 @@
         </section>        
     </div>
     <section class="socialsList">
-        <a class="asButton" href="https://discord.gg/fk3G2c6">
+        <a class="asButton" href="/discord/">
             <div>
                 <img src="https://cdn.global-gaming.co/images/DiscordWhite.png" alt="DiscordWhite">
                 <h3>Global Gaming</h3>
@@ -69,8 +69,8 @@
         <br>
         <h3 class="decoratedHeader1"><span><span class="red">All of</span> our links</span></h3>
         <table>
-            <tr><td><a class="asButton centerText" href="https://kof.global-gaming.co"><h4>kOF Website</h4></a></td></tr>
-            <tr><td><a class="asButton centerText" href="https://kof.global-gaming.co/apply"><h4>Apply for kOF</h4></a></td></tr>
+            <tr><td><a class="asButton centerText" href="https://kof.global-gaming.co"><h4>Knockout Force Team - kOF Website</h4></a></td></tr>
+            <tr><td><a class="asButton centerText" href="https://kof.global-gaming.co/apply"><h4>kOF Participation Application</h4></a></td></tr>
             <tr><td><a class="asButton centerText" href="https://www.facebook.com/kofteamorg"><h4>kOF Facebook</h4></a></td></tr>
             <tr><td><a class="asButton centerText" href="https://twitter.com/kofteamorg"><h4>kOF Twitter</h4></a></td></tr>
             <tr><td><a class="asButton centerText" href="https://twitch.tv/kofteamorg"><h4>kOF Twitch</h4></a></td></tr>
