@@ -10,7 +10,7 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <img src="/assets/images/banner.png">
+    <img src="https://cdn.global-gaming.co/images/banner.png">
     <div>
         <h2 id="status">STATUS</h2>
         <h1>Oh no, it seems you got lost!</h1>

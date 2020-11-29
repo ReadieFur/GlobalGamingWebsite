@@ -8,12 +8,12 @@
 <header id="header"><?php echo execAndRead("{$DOCUMENT_ROOT}/assets/php/header.php"); ?></header>
 <body>
     <div class="panel1">
-        <img src="/assets/images/banner.png">
+        <img src="https://cdn.global-gaming.co/images/banner.png">
         <section>
             <div></div>
             <div class="panel1Content bottomStrip">
                 <div class="blurImage">
-                    <img class="containImage" src="/assets/images/banner.png">
+                    <img class="containImage" src="https://cdn.global-gaming.co/images/banner.png">
                 </div>
                 <div class="p1c">
                     <span class="h3">Global Gaming</span>

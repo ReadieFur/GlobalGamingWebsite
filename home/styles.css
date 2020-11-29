@@ -60,7 +60,7 @@
     overflow-x: hidden;
 }
 
-.slideText > a
+.slideText a
 {
     width: max-content;
     margin-top: 20px;

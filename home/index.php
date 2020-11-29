@@ -17,7 +17,6 @@
         <section>
             <div></div>
             <div class="slideshowContainer panel1Content bottomStrip">
-
                 <!--#region Place slides here | CURRENT MAX: 4-->
                 <div style="display: none;">
                     <div>

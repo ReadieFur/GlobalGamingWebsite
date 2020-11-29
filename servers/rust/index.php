@@ -39,7 +39,7 @@
         </p>
         <h5 style="margin-left: 0;">
             <span class="red">Server address:</span>&nbsp;&nbsp;
-            <span>rust.globalgamingco.org:28015</span>
+            <span>rust.global-gaming.co:28015</span>
         </h5>
         <button onclick="window.location.href='https://discord.gg/g4Gwub7'">Rust Discord</button>
     </section>

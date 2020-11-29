@@ -40,7 +40,7 @@
         </p>
         <h5 style="margin-left: 0;">
             <span class="red">Server address:</span>&nbsp;&nbsp;
-            <span>mc.globalgamingco.org</span>
+            <span>mc.global-gaming.co</span>
         </h5>
         <button onclick="window.location.href='https://discord.gg/fk3G2c6'">Minecraft Discord</button>
     </section>
