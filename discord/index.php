@@ -2,5 +2,5 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><?php echo execAndRead("{$DOCUMENT_ROOT}/assets/php/head.php"); ?></head>
-<body><meta http-equiv="refresh" content="0; URL='https://discord.gg/fk3G2c6'"/>/body>
+<body><meta http-equiv="refresh" content="0; URL='https://discord.gg/fk3G2c6'"/>
 </html>
